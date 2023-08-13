@@ -8,8 +8,8 @@ const AboutPage = () => {
       <Heading as="h1" size="2xl" marginY="2rem">
         This is about page
       </Heading>
-      <NextLink href="/" passHref> 
-        <Link>Go to home page</Link>
+      <NextLink href="/" passHref>
+        Go to home page
       </NextLink>
       <NextLink href="/about/me">Go to About Me page</NextLink>
     </Flex>
