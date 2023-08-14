@@ -33,7 +33,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-
 // the return of getStaticPaths is passed on as arguments to getStaticProps function one by one being an array
 // and the retrun of getStaticProps is passed as arguments to the component function
 export const getStaticProps: GetStaticProps = async ({ params: { slug } }) => {
